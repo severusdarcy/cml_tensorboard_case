@@ -24,6 +24,6 @@ tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram
 
 model.fit(x=x_train, 
           y=y_train, 
-          epochs=6, 
+          epochs=7, 
           validation_data=(x_test, y_test), 
           callbacks=[tensorboard_callback])
